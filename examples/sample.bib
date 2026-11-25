@@ -1,0 +1,68 @@
+% Sample bibliography for bibforge demos.
+% It deliberately contains one duplicate citation key (smith2020)
+% and one entry with a missing required field (lee2019 has no journal),
+% so `bibforge check` has something to find.
+
+@string{ml = {Journal of Machine Learning Research}}
+
+@article{smith2020,
+  author  = {Smith, John and Doe, Jane},
+  title   = {A Study of {BibTeX} Workflows},
+  journal = ml,
+  year    = {2020},
+  volume  = {21},
+  pages   = {1--15},
+  doi     = {10.1000/xyz123}
+}
+
+@inproceedings{doe2021,
+  author    = {Doe, Jane and Roe, Richard},
+  title     = {Parsing Bibliographies at Scale},
+  booktitle = {Proceedings of the International Conference on Documents},
+  year      = {2021},
+  pages     = {101--110}
+}
+
+@book{knuth1984,
+  author    = {Knuth, Donald E.},
+  title     = {The TeXbook},
+  publisher = {Addison-Wesley},
+  year      = {1984},
+  isbn      = {0-201-13448-9}
+}
+
+@article{smith2020,
+  author  = {Smith, John},
+  title   = {A Study of BibTeX Workflows (Extended Version)},
+  journal = {Journal of Machine Learning Research},
+  year    = {2021}
+}
+
+@article{lee2019,
+  author = {Lee, Kim},
+  title  = {Reference Managers Compared},
+  year   = {2019}
+}
+
+@article{chen2022,
+  author  = {Chen, Wei},
+  title   = {Duplicate Detection in Bibliographic Databases},
+  journal = {Scientometrics},
+  year    = {2022},
+  doi     = {10.1000/dup.42}
+}
+
+@misc{chen2022preprint,
+  author = {Chen, Wei},
+  title  = {Duplicate Detection in Bibliographic Databases},
+  year   = {2022},
+  note   = {Preprint version of the Scientometrics paper},
+  doi    = {https://doi.org/10.1000/dup.42}
+}
+
+@article{wang2023,
+  author  = {Wang, Fang and Smith, John},
+  title   = {Formatting Bibliographies Automatically},
+  journal = {Journal of Documentation},
+  year    = {202}
+}
